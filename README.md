@@ -1,10 +1,12 @@
 Stocktake is a program that reconciles your recorded stock against a stock count and produces a stock adjustment file.
 
-To install, `pip install stocktake`.
+To install, `pip install git+https://github.com/bretth/stocktake`.
 
 Usage:
 
-The program takes 3 filename arguments. `stocktake file1.csv file2.csv file3.csv`
+`stocktake file1.csv file2.csv file3.csv`
+
+The program takes 3 filename arguments. 
 
 The first filename argument should be the current recorded stock csv file with 2 columns 'sku' and 'quantity'. Additionally you can have an optional third column which contains the primary key for the stock item.
 
